@@ -37,6 +37,7 @@ class Camera {
       this.trans(_pt[_pt.length - 1].x, "x"),
       this.trans(_pt[_pt.length - 1].y, "y")
     );
+
     _pt.forEach(val => {
       c.lineTo(this.trans(val.x, "x"), this.trans(val.y, "y"));
     });
